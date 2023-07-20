@@ -1,9 +1,9 @@
 # Tildeverse
 Information Website for the Tildeverse Unix and Linux Community
 
-https://tildeverse.org
-https://tilde.institute
-https://tilde.team
+https://tildeverse.org<br>
+https://tilde.institute<br>
+https://tilde.team<br>
 
 By Michael G. Workman
 Computer Science Professional, Technology Entrepreneur, Technology Consultant
