@@ -1,5 +1,9 @@
-# Tildeverse
+# Tildeversehttps
 Information Website for the Tildeverse Unix and Linux Community
+
+https://tildeverse.org
+https://tilde.institute
+https://tilde.team
 
 By Michael G. Workman
 Computer Science Professional, Technology Entrepreneur, Technology Consultant
