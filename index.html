@@ -3,7 +3,8 @@
 <title>Michael G. Workman</title>
 <style>
 p {font-size:30px;}
-h1 {font-size:40px;} 
+h1 {font-size:40px;}
+button {width:200px;height:40px;font-size:25px;}
 </style>
 </head>
 <body>
@@ -12,14 +13,45 @@ h1 {font-size:40px;}
 	<h1>Cocoa Beach, Florida, USA</h1>
 	<h1>+1 (321) 432-9295 Mobile</h1>
 	<a href="callto://+13214329295"><img src="photos/skype_icon.png" width="65" border="0" /></a>
-        <a href="callto://+13214329295"><img src="photos/whatsapp_icon.png" width="80" border="0" /></a>
+        <a href="callto://+13214329295"><img src="photos/whatsapp_icon.png" width="60" border="0" /></a>
     	<h1>+1 (321) 613-8607 Google</h1>
 	<a href="callto://+13216138607"><img src="photos/skype_icon.png" width="65" border="0" /></a>
-        <a href="callto://+13216138607"><img src="photos/whatsapp_icon.png" width="80" border="0" /></a>
+        <a href="callto://+13216138607"><img src="photos/whatsapp_icon.png" width="60" border="0" /></a>
 	<h1>michael.g.workman@outlook.com</h1>
-	<p><button onclick="copyEmail()">Copy Email</button></p><br>
+	<p><button onclick="copyEmail()">Copy Email</button></p>
 	<h1>Tilde user: mworkman72</h1>
 	
+		    <!-- FB Messenger Chat Plugin Code -->
+                    <div id="fb-root"></div>
+
+                    <!-- Your Chat Plugin code -->
+                    <div id="fb-customer-chat" class="fb-customerchat">
+                    </div>
+
+                    <script>
+                        var chatbox = document.getElementById('fb-customer-chat');
+                        chatbox.setAttribute("page_id", "102033052975033");
+                        chatbox.setAttribute("attribution", "biz_inbox");
+                    </script>
+
+                    <!-- Your SDK code -->
+                    <script>
+                        window.fbAsyncInit = function () {
+                            FB.init({
+                                xfbml: true,
+                                version: 'v16.0'
+                            });
+                        };
+
+                        (function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                    </script>
+                    
 	<h1>Bio</h1>
 	<p>I work as a Senior Software Engineer and also as a Technology Entrepreneur and E-Commerce Consultant</p>
 	<p>I was born in Scotland, United Kingdom, where my mother was from, but I am a US Citizen</p>
@@ -32,13 +64,13 @@ h1 {font-size:40px;}
 	<p>I have a Bachelor of Science Degree in Information Systems, Computer Science with a minor in Business, from Florida Tech, and also an Associate Degree in Engineering from Georgia Military College</p>
 	<p>I completed 2 years of Electrical Engineering Study at Georgia Southern University</p>
 	<p>I am an honorably discharged veteran of the US Navy Reserve. I was in the Navy Seabees. I was called up to active duty after 9/11</p>
-	<p>
-	Anyone is welcome to contact me, my username on Tilde is mworkman72, feel free to send email also, and also feel free to send me a friend request on facebook.
+	<p>Anyone is welcome to contact me, my username on Tilde is mworkman72, feel free to send email also, and also feel free to send me a friend request on Facebook.</p>
+	
 	</p><p><a href="https://michael-g-workman.github.io" target="_blank">CV</a></p>
-    <p><a href="https://github.com/Michael-G-Workman/" target="_blank">GitHub</a></p>
-    <p><a href="https://abiontechnology.visualstudio.com" target="_blank">Azure DevOps</p>
+    	<p><a href="https://github.com/Michael-G-Workman/" target="_blank">GitHub</a></p>
+    	<p><a href="https://abiontechnology.visualstudio.com" target="_blank">Azure DevOps</p>
 	<p><a href="https://michaelgworkman.blogspot.com/" target="_blank">Technology Blog</a></p>
-	<p><a href="https://abion.net" target="blank">Abion Technology</a></p>
+	<p><a href="https://white-mushroom-02277f60f.3.azurestaticapps.net" target="blank">Abion Technology</a></p>
 	<p><a href="http://www.linkedin.com/in/michael-g-workman-72839a42" target="_blank">LinkedIn</a></p>
 	<p><a href="https://www.facebook.com/michaelgworkman" target="_blank">Facebook</a></p>
 	<p><a href="https://www.twitter.com/michaelgworkman" target="_blank">Twitter</a></p>
