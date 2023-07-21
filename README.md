@@ -6,12 +6,12 @@ https://tilde.institute<br>
 https://tilde.team<br>
 
 By Michael G. Workman
-Computer Science Professional, Technology Entrepreneur, Technology Consultant
+Computer Science Professional, Technology Entrepreneur, E-Commerce Consultant
 
 michael.g.workman@outlook.com
 
-Hosted on Microsoft Azure Cloud
+Hosted on OpenBSD Unix
+https://openbsd.org
 
-https://calm-mud-03853930f.3.azurestaticapps.net/
 
 
