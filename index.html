@@ -17,10 +17,11 @@ h1 {font-size:40px;}
 	<a href="callto://+13216138607"><img src="photos/skype_icon.png" width="65" border="0" /></a>
         <a href="callto://+13216138607"><img src="photos/whatsapp_icon.png" width="80" border="0" /></a>
 	<h1>michael.g.workman@outlook.com</h1>
+	<p><button onclick="copyEmail()">Copy Email</button></p><br>
 	<h1>Tilde user: mworkman72</h1>
 	
 	<h1>Bio</h1>
-	<p>I work as a Senior Software Engineer and also as a Technology Entrepreneur</p>
+	<p>I work as a Senior Software Engineer and also as a Technology Entrepreneur and E-Commerce Consultant</p>
 	<p>I was born in Scotland, United Kingdom, where my mother was from, but I am a US Citizen</p>
 	<p>I had a father who was a career US Navy Petty Officer, he met and married my mother while stationed at Holy Loch, Scotland with the US Navy</p>
 	<p>I relocated to the Space Coast of Florida in 1996, from Saint Marys, Georgia, 27 years ago</p>
@@ -83,5 +84,15 @@ h1 {font-size:40px;}
 with, I was always worried the application would fail in some spectacular manner, but it did not, it worked good and the Space Shuttle aerospace engineers who used it were very pleased with it.
 	</p>
 	<p>Michael G. Workman August 21, 2022</p>
+
+	<script>
+		// Script for copy of email to clipboard
+                function copyEmail() {
+                        var emailAddress = "michael.g.workman@outlook.com";
+                        navigator.clipboard.writeText(emailAddress);
+                        alert("Email " + emailAddress + " Copied to Clipboard");
+                }
+        </script>
+
  </body>
 </html>
